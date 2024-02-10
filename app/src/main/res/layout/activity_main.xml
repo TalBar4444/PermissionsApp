@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/main_IMG_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:background="@drawable/background"
+        android:scaleType="centerCrop"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/main_LBL_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:text="What is\nThe\nPassword?"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/main_EDT_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="#20505050"
+            android:drawableStart="@drawable/ic_password"
+            android:drawablePadding="8dp"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/shani"
+            android:textSize="18sp"
+            app:errorEnabled="true" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/main_BTN_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:text="Let's start the fun"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/shani"
+            app:cornerRadius="10sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/main_LBL_secondTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Don't know ? Click here"
+            android:textSize="17sp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/main_LBL_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="4dp"
+            android:text="1. Increase the volume to maximum\n2. Write down the battery percentage\n3. Point the phone towards the east"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:visibility="invisible"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:padding="4dp"
+            android:visibility="gone">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_LBL_degree"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:text="degree" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_LBL_volume"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:text="volume" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/main_LBL_battery"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:text="battery" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:visibility="gone">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/main_EDT_degree"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:background="@color/white"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/main_EDT_volume"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:background="@color/white"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/main_EDT_battery"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="2dp"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:background="@color/white"/>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>
