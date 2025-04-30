@@ -10,7 +10,7 @@ Confident you’ve found the password? Hit the **Submit** button and see if you'
 Good luck, detective. 🕵️‍♂️📱
 
 ## Main screen
-![Main Screen](assets/main_screen.png)
+![Main Screen](screenshots/main_screen.png)
 
 ## Success Screen
-![successScreen.png](assets/successScreen.png)
+![Success Screen](screenshots/successScreen.png)
