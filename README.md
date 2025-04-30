@@ -9,8 +9,8 @@ Confident you’ve found the password? Hit the **Submit** button and see if you'
 
 Good luck, detective. 🕵️‍♂️📱
 
-<p>
-  <img="screenshots/main_screen.png" alt="Main Screen" width="270"/>
+<p align="center">
+  <img src="screenshots/main_screen.png" alt="Main Screen" width="270"/>
 </p>
 ## Main screen
 ![Main Screen](screenshots/main_screen.png)
