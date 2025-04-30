@@ -9,11 +9,12 @@ Confident you’ve found the password? Hit the **Submit** button and see if you'
 
 Good luck, detective. 🕵️‍♂️📱
 
-<p align="center">
+## Main screen
+<p align="start">
   <img src="screenshots/main_screen.png" alt="Main Screen" width="270"/>
 </p>
-## Main screen
-![Main Screen](screenshots/main_screen.png)
 
 ## Success Screen
-![Success Screen](screenshots/success_screen.png)
+<p align="start">
+  <img src="screenshots/success_screen.png" alt="Success Screen" width="270"/>
+</p>
