@@ -13,4 +13,4 @@ Good luck, detective. 🕵️‍♂️📱
 ![Main Screen](screenshots/main_screen.png)
 
 ## Success Screen
-![Success Screen](screenshots/successScreen.png)
+![Success Screen](screenshots/success_screen.png)
