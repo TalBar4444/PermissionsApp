@@ -27,7 +27,6 @@ To run this project locally:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/TalBar4444/PermissionsApp.git
-   cd PermissionsApp
 
 ## 📄 License
 Copyright 2025 Tal Bar
